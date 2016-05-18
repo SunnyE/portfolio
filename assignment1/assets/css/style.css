@@ -143,78 +143,56 @@ header{
 	font-size: 23px;
 	font-family: 'Arial Black', 'Arial Bold', Gadget, sans-serif;
 }
-.portfolio img {
-	width:250px;
-	height:200px;
-	padding:17px;
 
-}
-#hang {
-	float:left;
+
+
+.hangman1{
+	width:45%;
+	height:200px;
 	position:relative;
+	margin-left:3%;
+	float:left;
+	margin-bottom:15px;
+}
+.hangman1 img {
+	height:100%;
+	width:100%;
+	
 }
 #hangman {
-	display:inline-block;
-	width:230px;
+	width:100%;
 	height:20px;
 	background-color: #6D6E71;
 	text-align: center;
-	position:absolute;
-	left: 97px;
-	top:340px;
-	padding:10px;
+	padding:10 0 10;
 	color:white;
+	position:absolute;
+	bottom:20;	
+}
+.rpgg {
+	width:45%;
+	height:200px;
+	position:relative;
+	margin-right:3%;
+	float:right;
+	margin-bottom:15px;
+}
+.rpgg img{
+	height:100%;
+	width:100%;
+	
 }
 #rpggame{
-	display:inline-block;
-	width:230px;
+	width:100%;
 	height:20px;
-	background-color:#6D6E71;
+	background-color: #6D6E71;
 	text-align: center;
-	position:absolute;
-	left: 381px;
-	top:340px;
-	padding:10px;
+	padding:10 0 10;
 	color:white;
+	position:absolute;
+	bottom:20;
+}
 
-}
-#triviap {
-	display:inline-block;
-	width:230px;
-	height:20px;
-	background-color: #6D6E71;
-	text-align: center;
-	position:absolute;
-	left: 97px;
-	top:580px;
-	padding:10px;
-	color:white;
-}
-#rutgersp {
-	display:inline-block;
-	width:230px;
-	height:20px;
-	background-color: #6D6E71;
-	text-align: center;
-	position:absolute;
-	left: 385px;
-	top:580px;
-	padding:10px;
-	color:white;
-
-}
-#rpsp {
-	display:inline-block;
-	width:230px;
-	height:20px;
-	background-color: #6D6E71;
-	text-align: center;
-	position:absolute;
-	left: 97px;
-	top:830px;
-	padding:10px;
-	color:white;
-}
 .graphicart{
 	float: left;
 	background-color: white;
@@ -367,6 +345,29 @@ header{
  		.connect {
  			width: 20%;
  			margin-right:15%;
+ 		}
+ 		.portfolio{
+ 			width:38%;
+ 			margin-left: 15%;
+
+ 		}
+ 		.hangman1 {
+ 			width:85%;
+ 			height:250px;
+ 			float:none;
+ 			margin-left: 5%;
+ 			margin-bottom: 30px;
+
+ 		}
+ 		.rpgg {
+ 			width:85%;
+ 			height:250px;
+ 			float:none;
+ 			margin-left: 5%;
+ 			margin-bottom: 30px;
+ 		}
+ 		.greybar{
+ 			width:85%;
  		}
 
  	 }
