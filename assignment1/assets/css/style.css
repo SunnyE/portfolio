@@ -344,6 +344,7 @@ header{
  		.connect {
  			width: 20%;
  			margin-right:15%;
+ 			margin-bottom: 100px;
  		}
  		.portfolio{
  			width:38%;
@@ -368,7 +369,17 @@ header{
  		.greybar{
  			width:85%;
  		}
+ 		footer{
+  			width:100%;
+  		}
+  		.graphicart {
+  			width:38%;
+  			margin-left: 3%;
+  		}
 
+  		.graphicart img {
+  			width:90%;
+  		}
  	 }
 
   @media screen and (max-width: 768px) {
@@ -393,6 +404,8 @@ header{
   			width:88%;
   			margin-left: 3%;
   			float:none;
+  			margin-bottom: 100px;
+
   		}
   		.navlist{
   			padding:0 0 0 0;
@@ -430,11 +443,76 @@ header{
   		.greybar {
   			width:93%;
   		}
-  		
+  		footer{
+  			width:100%;
+  		}
+  		.graphicart {
+  			width:90%;
+  			margin-left: 3%;
+  		}
+
+  		.graphicart img {
+  			width:90%;
+  		}
 
   	
  	 }
 
   @media screen and (max-width: 640px) {
+  		header{
+  			position:static;
+  		}
 
+  		.graphicart {
+  			width:90%;
+  			margin-left: 3%;
+  		}
+
+  		.graphicart img {
+  			width:90%;
+  		}
+  		.h1name {
+  			width:100%;
+  			padding-top:20px;
+  			padding-bottom:20px;
+  			padding-right: 0px;
+  			padding-left:0px;
+  			text-align: center;
+  		}
+  		footer{
+  			width:100%;
+  		}
+
+  		.navitem{
+  			margin-top: 0px;
+  			width:25%;
+  			padding-top:20px;
+  			padding-bottom:20px;
+  			padding-right: 0px;
+  			padding-left:0px;
+
+  		}
+  		.navlist{
+  			width:100%;
+  		}
+
+  		.hangman1 {
+ 			width:90%;
+ 			height:250px;
+ 			float:none;
+ 			margin-left: 5%;
+ 			margin-bottom: 30px;
+
+ 		}
+ 		.rpgg {
+ 			width:90%;
+ 			height:250px;
+ 			float:none;
+ 			margin-left: 5%;
+ 			margin-bottom: 30px;
  	 }
+ 	 .connect {
+ 	 	margin-bottom: 100px;
+ 	 }
+ 	
+ 	}
