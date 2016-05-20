@@ -57,7 +57,7 @@ header img {
 	width:960px;
 	height:960px;
 	display: inline-block;
-	overflow: auto;
+	overflow-y: auto;
 }
 
 .navitem:hover{
@@ -93,6 +93,7 @@ footer{
 	padding:25px;
 	position: fixed;
 	bottom:0;
+    border-top: thick solid #FFF200;
 }
 footer h6 {
 	color:#6D6E71;
@@ -235,13 +236,13 @@ header{
 }
 
 .form input {
-	margin-left:5px;
-	width:98%;
+	margin-left:3%;
+	width:93%;
 	height: 25px;
 }
 .form textarea {
-	margin-left:5px;
-	width:98%;
+	margin-left:3%;
+	width:93%;
 	height: 250px;
 }
 .submit input {
@@ -303,14 +304,6 @@ header{
 
 }
 
-.bottombar { 
-	width:960px;
-	height:5px;
-	background-color:#FFF200 ;
-	float:left;
-	position:fixed;
-	bottom:65;
- }
  .greybar {
  	width:93%;
  	height:3px;
@@ -381,10 +374,13 @@ header{
   @media screen and (max-width: 768px) {
   		.container {
   			width:100%;
+  			
+
   		}
 
   		.overlord{
   			width:100%;
+  		
   		}
   		.aboutme{
   			width:90%;
@@ -414,7 +410,27 @@ header{
   			display:none;
   		}
 
+  		.portfolio {
+  			width:90%;
+  			margin-left:3%;
+  		}
 
+  		.hangman1 {
+  			width:42%;
+  			height:18%;
+  			float:left;
+  			margin-left:3%;
+  		}
+  		.rpgg {
+  			width:42%;
+  			height:18%;
+  			float:right;
+  		}
+
+  		.greybar {
+  			width:93%;
+  		}
+  		
 
   	
  	 }
