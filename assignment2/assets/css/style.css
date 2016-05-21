@@ -1,0 +1,23 @@
+.navbar-inverse {
+    background-color: #6D6E71;
+    border-color: #FFF200;
+    border-bottom-width: thick;
+}
+
+a{
+	color:#FFF200;
+}
+.navbar-inverse .navbar-brand {
+    color: #FFF200;
+}
+
+.navbar-brand {
+    font-weight: 700;
+    font-size: 35px;
+    letter-spacing: 5px;
+}
+
+.navbar-inverse {
+    padding-bottom: 60px;
+    padding-top: 60px;
+}
